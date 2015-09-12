@@ -1,0 +1,301 @@
+[1441650600] LOG ROTATION: DAILY
+[1441650600] LOG VERSION: 2.0
+[1441650600] CURRENT HOST STATE: application.plank.life;UP;HARD;1;PING OK - Packet loss = 0%, RTA = 0.55 ms
+[1441650600] CURRENT HOST STATE: localhost;UP;HARD;1;PING OK - Packet loss = 0%, RTA = 0.05 ms
+[1441650600] CURRENT SERVICE STATE: application.plank.life;DHCP;OK;HARD;1;OK: Received 1 DHCPOFFER(s), max lease time = 691200 sec.
+[1441650600] CURRENT SERVICE STATE: application.plank.life;IMAP;CRITICAL;HARD;3;connect to address 192.168.1.43 and port 143: No route to host
+[1441650600] CURRENT SERVICE STATE: application.plank.life;Local Disk;UNKNOWN;HARD;3;Unknown argument
+[1441650600] CURRENT SERVICE STATE: application.plank.life;Local Proceses;UNKNOWN;HARD;3;Usage:
+[1441650600] CURRENT SERVICE STATE: application.plank.life;Local Swap;UNKNOWN;HARD;3;check_swap: Warning threshold must be integer or percentage!
+[1441650600] CURRENT SERVICE STATE: application.plank.life;Local Users;UNKNOWN;HARD;3;check_users: Warning threshold must be a positive integer
+[1441650600] CURRENT SERVICE STATE: application.plank.life;MYSQL;CRITICAL;HARD;3;Can't connect to MySQL server on '192.168.1.43' (113)
+[1441650600] CURRENT SERVICE STATE: application.plank.life;PING;UNKNOWN;HARD;3;check_ping: %s: Warning threshold must be integer or percentage!
+[1441650600] CURRENT SERVICE STATE: application.plank.life;POP;CRITICAL;HARD;3;connect to address 192.168.1.43 and port 110: No route to host
+[1441650600] CURRENT SERVICE STATE: application.plank.life;SSH;OK;HARD;1;SSH OK - OpenSSH_6.6.1p1 Ubuntu-2ubuntu2.3 (protocol 2.0)
+[1441650600] CURRENT SERVICE STATE: application.plank.life;UDP;UNKNOWN;HARD;3;Usage:
+[1441650600] CURRENT SERVICE STATE: application.plank.life;check_nt;UNKNOWN;HARD;3;Usage:
+[1441650600] CURRENT SERVICE STATE: application.plank.life;check_smtp;CRITICAL;HARD;3;connect to address 192.168.1.43 and port 25: No route to host
+[1441650600] CURRENT SERVICE STATE: localhost;Current Load;OK;HARD;1;OK - load average: 0.00, 0.01, 0.05
+[1441650600] CURRENT SERVICE STATE: localhost;Current Users;OK;HARD;1;USERS OK - 0 users currently logged in
+[1441650600] CURRENT SERVICE STATE: localhost;HTTP;OK;HARD;1;HTTP OK: HTTP/1.1 200 OK - 11783 bytes in 0.001 second response time
+[1441650600] CURRENT SERVICE STATE: localhost;PING;OK;HARD;1;PING OK - Packet loss = 0%, RTA = 0.05 ms
+[1441650600] CURRENT SERVICE STATE: localhost;Root Partition;OK;HARD;1;DISK OK - free space: / 10790 MB (63% inode=90%):
+[1441650600] CURRENT SERVICE STATE: localhost;SSH;OK;HARD;1;SSH OK - OpenSSH_6.6.1p1 Ubuntu-2ubuntu2.3 (protocol 2.0)
+[1441650600] CURRENT SERVICE STATE: localhost;Swap Usage;OK;HARD;1;SWAP OK - 100% free (2007 MB out of 2007 MB)
+[1441650600] CURRENT SERVICE STATE: localhost;Total Processes;OK;HARD;1;PROCS OK: 50 processes with STATE = RSZDT
+[1441652225] Auto-save of retention data completed successfully.
+[1441655824] Auto-save of retention data completed successfully.
+[1441659424] Auto-save of retention data completed successfully.
+[1441663024] Auto-save of retention data completed successfully.
+[1441666624] Auto-save of retention data completed successfully.
+[1441670224] Auto-save of retention data completed successfully.
+[1441673825] Auto-save of retention data completed successfully.
+[1441677424] Auto-save of retention data completed successfully.
+[1441681025] Auto-save of retention data completed successfully.
+[1441684624] Auto-save of retention data completed successfully.
+[1441688225] Auto-save of retention data completed successfully.
+[1441691825] Auto-save of retention data completed successfully.
+[1441695425] Auto-save of retention data completed successfully.
+[1441699024] Auto-save of retention data completed successfully.
+[1441701092] Caught SIGTERM, shutting down...
+[1441701092] Successfully shutdown... (PID=8166)
+[1441701092] Event broker module 'NERD' deinitialized successfully.
+[1441701093] Nagios 4.1.1 starting... (PID=24768)
+[1441701093] Local time is Tue Sep 08 14:01:33 IST 2015
+[1441701093] LOG VERSION: 2.0
+[1441701093] qh: Socket '/usr/local/nagios/var/rw/nagios.qh' successfully initialized
+[1441701093] qh: core query handler registered
+[1441701093] nerd: Channel hostchecks registered successfully
+[1441701093] nerd: Channel servicechecks registered successfully
+[1441701093] nerd: Channel opathchecks registered successfully
+[1441701093] nerd: Fully initialized and ready to rock!
+[1441701093] wproc: Successfully registered manager as @wproc with query handler
+[1441701093] wproc: Registry request: name=Core Worker 24770;pid=24770
+[1441701093] wproc: Registry request: name=Core Worker 24771;pid=24771
+[1441701093] wproc: Registry request: name=Core Worker 24769;pid=24769
+[1441701093] wproc: Registry request: name=Core Worker 24772;pid=24772
+[1441701094] Successfully launched command file worker with pid 24773
+[1441701154] Caught SIGTERM, shutting down...
+[1441701154] Successfully shutdown... (PID=24768)
+[1441701154] Event broker module 'NERD' deinitialized successfully.
+[1441701155] Nagios 4.1.1 starting... (PID=24880)
+[1441701155] Local time is Tue Sep 08 14:02:35 IST 2015
+[1441701155] LOG VERSION: 2.0
+[1441701155] qh: Socket '/usr/local/nagios/var/rw/nagios.qh' successfully initialized
+[1441701155] qh: core query handler registered
+[1441701155] nerd: Channel hostchecks registered successfully
+[1441701155] nerd: Channel servicechecks registered successfully
+[1441701155] nerd: Channel opathchecks registered successfully
+[1441701155] nerd: Fully initialized and ready to rock!
+[1441701155] wproc: Successfully registered manager as @wproc with query handler
+[1441701155] wproc: Registry request: name=Core Worker 24882;pid=24882
+[1441701155] wproc: Registry request: name=Core Worker 24883;pid=24883
+[1441701155] wproc: Registry request: name=Core Worker 24881;pid=24881
+[1441701155] wproc: Registry request: name=Core Worker 24884;pid=24884
+[1441701155] Successfully launched command file worker with pid 24885
+[1441701946] Caught SIGTERM, shutting down...
+[1441701946] Successfully shutdown... (PID=24880)
+[1441701946] Event broker module 'NERD' deinitialized successfully.
+[1441701947] Nagios 4.1.1 starting... (PID=25173)
+[1441701947] Local time is Tue Sep 08 14:15:47 IST 2015
+[1441701947] LOG VERSION: 2.0
+[1441701947] qh: Socket '/usr/local/nagios/var/rw/nagios.qh' successfully initialized
+[1441701947] qh: core query handler registered
+[1441701947] nerd: Channel hostchecks registered successfully
+[1441701947] nerd: Channel servicechecks registered successfully
+[1441701947] nerd: Channel opathchecks registered successfully
+[1441701947] nerd: Fully initialized and ready to rock!
+[1441701947] wproc: Successfully registered manager as @wproc with query handler
+[1441701947] wproc: Registry request: name=Core Worker 25177;pid=25177
+[1441701947] wproc: Registry request: name=Core Worker 25176;pid=25176
+[1441701947] wproc: Registry request: name=Core Worker 25174;pid=25174
+[1441701947] wproc: Registry request: name=Core Worker 25175;pid=25175
+[1441701947] Successfully launched command file worker with pid 25178
+[1441702154] SERVICE ALERT: cisco;Uptime;CRITICAL;SOFT;1;CRITICAL - Plugin timed out while executing system call
+[1441702274] SERVICE ALERT: cisco;Uptime;CRITICAL;SOFT;2;CRITICAL - Plugin timed out while executing system call
+[1441702301] SERVICE ALERT: cisco;Port 1 Bandwidth Usage;UNKNOWN;SOFT;1;check_mrtgtraf: Unable to open MRTG log file
+[1441702394] SERVICE ALERT: cisco;Uptime;CRITICAL;HARD;3;CRITICAL - Plugin timed out while executing system call
+[1441702394] SERVICE NOTIFICATION: nagiosadmin;cisco;Uptime;CRITICAL;notify-service-by-email;CRITICAL - Plugin timed out while executing system call
+[1441702421] SERVICE ALERT: cisco;Port 1 Bandwidth Usage;UNKNOWN;SOFT;2;check_mrtgtraf: Unable to open MRTG log file
+[1441702478] SERVICE ALERT: cisco;Port 1 Link Status;UNKNOWN;SOFT;1;External command error: MIB search path: $HOME/.snmp/mibs:/usr/share/snmp/mibs:/usr/share/snmp/mibs/iana:/usr/share/snmp/mibs/ietf:/usr/share/mibs/site:/usr/share/snmp/mibs:/usr/share/mibs/iana:/usr/share/mibs/ietf:/usr/share/mibs/netsnmp
+[1441702541] SERVICE ALERT: cisco;Port 1 Bandwidth Usage;UNKNOWN;HARD;3;check_mrtgtraf: Unable to open MRTG log file
+[1441702541] SERVICE NOTIFICATION: nagiosadmin;cisco;Port 1 Bandwidth Usage;UNKNOWN;notify-service-by-email;check_mrtgtraf: Unable to open MRTG log file
+[1441702598] SERVICE ALERT: cisco;Port 1 Link Status;UNKNOWN;SOFT;2;External command error: MIB search path: $HOME/.snmp/mibs:/usr/share/snmp/mibs:/usr/share/snmp/mibs/iana:/usr/share/snmp/mibs/ietf:/usr/share/mibs/site:/usr/share/snmp/mibs:/usr/share/mibs/iana:/usr/share/mibs/ietf:/usr/share/mibs/netsnmp
+[1441702718] SERVICE ALERT: cisco;Port 1 Link Status;UNKNOWN;HARD;3;External command error: MIB search path: $HOME/.snmp/mibs:/usr/share/snmp/mibs:/usr/share/snmp/mibs/iana:/usr/share/snmp/mibs/ietf:/usr/share/mibs/site:/usr/share/snmp/mibs:/usr/share/mibs/iana:/usr/share/mibs/ietf:/usr/share/mibs/netsnmp
+[1441702718] SERVICE NOTIFICATION: nagiosadmin;cisco;Port 1 Link Status;UNKNOWN;notify-service-by-email;External command error: MIB search path: $HOME/.snmp/mibs:/usr/share/snmp/mibs:/usr/share/snmp/mibs/iana:/usr/share/snmp/mibs/ietf:/usr/share/mibs/site:/usr/share/snmp/mibs:/usr/share/mibs/iana:/usr/share/mibs/ietf:/usr/share/mibs/netsnmp
+[1441705546] Auto-save of retention data completed successfully.
+[1441705994] SERVICE NOTIFICATION: nagiosadmin;cisco;Uptime;CRITICAL;notify-service-by-email;CRITICAL - Plugin timed out while executing system call
+[1441706141] SERVICE NOTIFICATION: nagiosadmin;cisco;Port 1 Bandwidth Usage;UNKNOWN;notify-service-by-email;check_mrtgtraf: Unable to open MRTG log file
+[1441706318] SERVICE NOTIFICATION: nagiosadmin;cisco;Port 1 Link Status;UNKNOWN;notify-service-by-email;External command error: MIB search path: $HOME/.snmp/mibs:/usr/share/snmp/mibs:/usr/share/snmp/mibs/iana:/usr/share/snmp/mibs/ietf:/usr/share/mibs/site:/usr/share/snmp/mibs:/usr/share/mibs/iana:/usr/share/mibs/ietf:/usr/share/mibs/netsnmp
+[1441707000] Caught SIGTERM, shutting down...
+[1441707000] Successfully shutdown... (PID=25173)
+[1441707000] Event broker module 'NERD' deinitialized successfully.
+[1441707000] Nagios 4.1.1 starting... (PID=26746)
+[1441707000] Local time is Tue Sep 08 15:40:00 IST 2015
+[1441707000] LOG VERSION: 2.0
+[1441707000] qh: Socket '/usr/local/nagios/var/rw/nagios.qh' successfully initialized
+[1441707000] qh: core query handler registered
+[1441707000] nerd: Channel hostchecks registered successfully
+[1441707000] nerd: Channel servicechecks registered successfully
+[1441707000] nerd: Channel opathchecks registered successfully
+[1441707000] nerd: Fully initialized and ready to rock!
+[1441707000] wproc: Successfully registered manager as @wproc with query handler
+[1441707000] wproc: Registry request: name=Core Worker 26748;pid=26748
+[1441707000] wproc: Registry request: name=Core Worker 26750;pid=26750
+[1441707000] wproc: Registry request: name=Core Worker 26747;pid=26747
+[1441707000] wproc: Registry request: name=Core Worker 26749;pid=26749
+[1441707000] Successfully launched command file worker with pid 26751
+[1441707545] Caught SIGTERM, shutting down...
+[1441707545] Successfully shutdown... (PID=26746)
+[1441707545] Event broker module 'NERD' deinitialized successfully.
+[1441707545] Nagios 4.1.1 starting... (PID=26975)
+[1441707545] Local time is Tue Sep 08 15:49:05 IST 2015
+[1441707545] LOG VERSION: 2.0
+[1441707545] qh: Socket '/usr/local/nagios/var/rw/nagios.qh' successfully initialized
+[1441707545] qh: core query handler registered
+[1441707545] nerd: Channel hostchecks registered successfully
+[1441707545] nerd: Channel servicechecks registered successfully
+[1441707545] nerd: Channel opathchecks registered successfully
+[1441707545] nerd: Fully initialized and ready to rock!
+[1441707545] wproc: Successfully registered manager as @wproc with query handler
+[1441707545] wproc: Registry request: name=Core Worker 26979;pid=26979
+[1441707545] wproc: Registry request: name=Core Worker 26978;pid=26978
+[1441707545] wproc: Registry request: name=Core Worker 26977;pid=26977
+[1441707545] wproc: Registry request: name=Core Worker 26976;pid=26976
+[1441707545] Warning: Duplicate definition found for service 'SSH' on host 'application.plank.life' (config file '/usr/local/nagios/etc/objects/localhost.cfg', starting on line 136)
+[1441707545] Warning: Duplicate definition found for service 'PING' on host 'application.plank.life' (config file '/usr/local/nagios/etc/objects/localhost.cfg', starting on line 64)
+[1441707545] Successfully launched command file worker with pid 26980
+[1441707596] SERVICE ALERT: artifactory.plank.life;HTTP;CRITICAL;SOFT;1;connect to address 192.168.1.33 and port 80: Connection refused
+[1441707601] SERVICE ALERT: confluence.plank.life;HTTP;CRITICAL;SOFT;1;connect to address 192.168.1.29 and port 80: Connection refused
+[1441707607] SERVICE ALERT: git.plank.life;HTTP;CRITICAL;SOFT;1;connect to address 192.168.1.28 and port 80: Connection refused
+[1441707612] SERVICE ALERT: jenkins.plank.life;HTTP;CRITICAL;SOFT;1;connect to address 192.168.1.25 and port 80: Connection refused
+[1441707627] SERVICE ALERT: jira.plank.life;HTTP;CRITICAL;SOFT;1;CRITICAL - Socket timeout after 10 seconds
+[1441707656] SERVICE ALERT: artifactory.plank.life;HTTP;CRITICAL;SOFT;2;connect to address 192.168.1.33 and port 80: Connection refused
+[1441707661] SERVICE ALERT: confluence.plank.life;HTTP;CRITICAL;SOFT;2;connect to address 192.168.1.29 and port 80: Connection refused
+[1441707667] SERVICE ALERT: git.plank.life;HTTP;CRITICAL;SOFT;2;connect to address 192.168.1.28 and port 80: Connection refused
+[1441707672] SERVICE ALERT: jenkins.plank.life;HTTP;CRITICAL;SOFT;2;connect to address 192.168.1.25 and port 80: Connection refused
+[1441707685] SERVICE ALERT: application.plank.life;HTTP;CRITICAL;SOFT;1;connect to address 192.168.1.43 and port 80: No route to host
+[1441707687] SERVICE ALERT: jira.plank.life;HTTP;CRITICAL;SOFT;2;CRITICAL - Socket timeout after 10 seconds
+[1441707716] SERVICE ALERT: artifactory.plank.life;HTTP;CRITICAL;SOFT;3;connect to address 192.168.1.33 and port 80: Connection refused
+[1441707721] SERVICE ALERT: confluence.plank.life;HTTP;CRITICAL;SOFT;3;connect to address 192.168.1.29 and port 80: Connection refused
+[1441707727] SERVICE ALERT: git.plank.life;HTTP;CRITICAL;SOFT;3;connect to address 192.168.1.28 and port 80: Connection refused
+[1441707732] SERVICE ALERT: jenkins.plank.life;HTTP;CRITICAL;SOFT;3;connect to address 192.168.1.25 and port 80: Connection refused
+[1441707736] SERVICE ALERT: artifactory.plank.life;SSH;CRITICAL;SOFT;1;connect to address 192.168.1.33 and port 22: Connection refused
+[1441707747] SERVICE ALERT: jira.plank.life;HTTP;CRITICAL;SOFT;3;CRITICAL - Socket timeout after 10 seconds
+[1441707750] HOST ALERT: jira.plank.life;DOWN;SOFT;1;CRITICAL - Host Unreachable (192.168.1.20)
+[1441707751] SERVICE ALERT: confluence.plank.life;SSH;CRITICAL;SOFT;1;CRITICAL - Socket timeout after 10 seconds
+[1441707754] SERVICE ALERT: application.plank.life;HTTP;CRITICAL;SOFT;2;CRITICAL - Socket timeout after 10 seconds
+[1441707754] HOST ALERT: application.plank.life;DOWN;SOFT;1;CRITICAL - Host Unreachable (192.168.1.43)
+[1441707756] SERVICE ALERT: git.plank.life;SSH;CRITICAL;SOFT;1;CRITICAL - Socket timeout after 10 seconds
+[1441707759] HOST ALERT: confluence.plank.life;DOWN;SOFT;1;CRITICAL - Host Unreachable (192.168.1.29)
+[1441707760] SERVICE ALERT: jira.plank.life;SSH;CRITICAL;SOFT;1;connect to address 192.168.1.20 and port 22: No route to host
+[1441707762] SERVICE ALERT: jenkins.plank.life;SSH;CRITICAL;SOFT;1;CRITICAL - Socket timeout after 10 seconds
+[1441707764] HOST ALERT: git.plank.life;DOWN;SOFT;1;CRITICAL - Host Unreachable (192.168.1.28)
+[1441707767] SERVICE ALERT: application.plank.life;DHCP;CRITICAL;SOFT;1;CRITICAL: No DHCPOFFERs were received.
+[1441707770] HOST ALERT: application.plank.life;DOWN;SOFT;2;CRITICAL - Host Unreachable (192.168.1.43)
+[1441707776] SERVICE ALERT: artifactory.plank.life;HTTP;CRITICAL;HARD;4;connect to address 192.168.1.33 and port 80: Connection refused
+[1441707781] SERVICE ALERT: confluence.plank.life;HTTP;CRITICAL;HARD;4;connect to address 192.168.1.29 and port 80: Connection refused
+[1441707785] HOST ALERT: confluence.plank.life;UP;SOFT;2;PING OK - Packet loss = 0%, RTA = 0.62 ms
+[1441707790] SERVICE ALERT: git.plank.life;HTTP;CRITICAL;HARD;4;connect to address 192.168.1.28 and port 80: No route to host
+[1441707791] HOST ALERT: application.plank.life;DOWN;SOFT;3;CRITICAL - Host Unreachable (192.168.1.43)
+[1441707792] SERVICE ALERT: jenkins.plank.life;HTTP;CRITICAL;HARD;4;connect to address 192.168.1.25 and port 80: Connection refused
+[1441707793] HOST ALERT: jira.plank.life;UP;SOFT;2;PING OK - Packet loss = 0%, RTA = 0.85 ms
+[1441707793] HOST ALERT: mail.plank.life;DOWN;SOFT;1;CRITICAL - Host Unreachable (192.168.1.4)
+[1441707794] HOST ALERT: git.plank.life;UP;SOFT;2;PING OK - Packet loss = 0%, RTA = 0.67 ms
+[1441707796] SERVICE ALERT: artifactory.plank.life;SSH;CRITICAL;SOFT;2;connect to address 192.168.1.33 and port 22: Connection refused
+[1441707801] SERVICE ALERT: confluence.plank.life;SSH;CRITICAL;SOFT;2;connect to address 192.168.1.29 and port 22: Connection refused
+[1441707806] SERVICE ALERT: git.plank.life;SSH;CRITICAL;SOFT;2;connect to address 192.168.1.28 and port 22: Connection refused
+[1441707806] HOST ALERT: cisco;DOWN;SOFT;1;CRITICAL - Host Unreachable (192.168.1.1)
+[1441707807] SERVICE ALERT: jira.plank.life;HTTP;CRITICAL;HARD;4;CRITICAL - Socket timeout after 10 seconds
+[1441707807] SERVICE ALERT: application.plank.life;HTTP;CRITICAL;SOFT;3;connect to address 192.168.1.43 and port 80: No route to host
+[1441707810] HOST ALERT: application.plank.life;DOWN;SOFT;4;CRITICAL - Host Unreachable (192.168.1.43)
+[1441707812] SERVICE ALERT: jenkins.plank.life;SSH;CRITICAL;SOFT;2;connect to address 192.168.1.25 and port 22: Connection refused
+[1441707827] SERVICE ALERT: jira.plank.life;SSH;CRITICAL;SOFT;2;CRITICAL - Socket timeout after 10 seconds
+[1441707827] SERVICE ALERT: cisco;PING;CRITICAL;SOFT;1;CRITICAL - Host Unreachable (192.168.1.1)
+[1441707827] HOST ALERT: application.plank.life;DOWN;HARD;5;CRITICAL - Host Unreachable (192.168.1.43)
+[1441707827] HOST NOTIFICATION: nagiosadmin;application.plank.life;DOWN;notify-host-by-email;CRITICAL - Host Unreachable (192.168.1.43)
+[1441707830] HOST ALERT: cisco;DOWN;SOFT;2;CRITICAL - Host Unreachable (192.168.1.1)
+[1441707856] SERVICE ALERT: artifactory.plank.life;SSH;CRITICAL;SOFT;3;connect to address 192.168.1.33 and port 22: Connection refused
+[1441707856] HOST ALERT: mail.plank.life;DOWN;SOFT;2;CRITICAL - Host Unreachable (192.168.1.4)
+[1441707861] SERVICE ALERT: confluence.plank.life;SSH;CRITICAL;SOFT;3;connect to address 192.168.1.29 and port 22: Connection refused
+[1441707866] SERVICE ALERT: git.plank.life;SSH;CRITICAL;SOFT;3;connect to address 192.168.1.28 and port 22: Connection refused
+[1441707867] SERVICE ALERT: application.plank.life;HTTP;CRITICAL;HARD;4;connect to address 192.168.1.43 and port 80: No route to host
+[1441707872] SERVICE ALERT: jenkins.plank.life;SSH;CRITICAL;SOFT;3;connect to address 192.168.1.25 and port 22: Connection refused
+[1441707887] SERVICE ALERT: jira.plank.life;SSH;CRITICAL;SOFT;3;CRITICAL - Socket timeout after 10 seconds
+[1441707887] SERVICE ALERT: cisco;PING;CRITICAL;SOFT;2;CRITICAL - Host Unreachable (192.168.1.1)
+[1441707887] SERVICE ALERT: application.plank.life;DHCP;CRITICAL;SOFT;2;CRITICAL: No DHCPOFFERs were received.
+[1441707890] HOST ALERT: cisco;DOWN;SOFT;3;CRITICAL - Host Unreachable (192.168.1.1)
+[1441707916] SERVICE ALERT: artifactory.plank.life;SSH;CRITICAL;HARD;4;connect to address 192.168.1.33 and port 22: Connection refused
+[1441707919] HOST ALERT: mail.plank.life;DOWN;SOFT;3;CRITICAL - Host Unreachable (192.168.1.4)
+[1441707921] SERVICE ALERT: confluence.plank.life;SSH;CRITICAL;HARD;4;connect to address 192.168.1.29 and port 22: Connection refused
+[1441707923] HOST ALERT: ad.plank.life;DOWN;SOFT;1;CRITICAL - Host Unreachable (192.168.1.2)
+[1441707926] SERVICE ALERT: git.plank.life;SSH;CRITICAL;HARD;4;connect to address 192.168.1.28 and port 22: Connection refused
+[1441707932] SERVICE ALERT: jenkins.plank.life;SSH;CRITICAL;HARD;4;connect to address 192.168.1.25 and port 22: Connection refused
+[1441707944] HOST ALERT: cisco;DOWN;SOFT;4;CRITICAL - Host Unreachable (192.168.1.1)
+[1441707944] SERVICE ALERT: cisco;PING;CRITICAL;HARD;3;CRITICAL - Host Unreachable (192.168.1.1)
+[1441707947] SERVICE ALERT: jira.plank.life;SSH;CRITICAL;HARD;4;CRITICAL - Socket timeout after 10 seconds
+[1441707982] HOST ALERT: mail.plank.life;DOWN;SOFT;4;CRITICAL - Host Unreachable (192.168.1.4)
+[1441707986] HOST ALERT: ad.plank.life;DOWN;SOFT;2;CRITICAL - Host Unreachable (192.168.1.2)
+[1441708007] SERVICE ALERT: application.plank.life;DHCP;CRITICAL;HARD;3;CRITICAL: No DHCPOFFERs were received.
+[1441708045] HOST ALERT: mail.plank.life;DOWN;HARD;5;CRITICAL - Host Unreachable (192.168.1.4)
+[1441708045] HOST NOTIFICATION: nagiosadmin;mail.plank.life;DOWN;notify-host-by-email;CRITICAL - Host Unreachable (192.168.1.4)
+[1441708049] HOST ALERT: ad.plank.life;DOWN;SOFT;3;CRITICAL - Host Unreachable (192.168.1.2)
+[1441708112] HOST ALERT: ad.plank.life;DOWN;SOFT;4;CRITICAL - Host Unreachable (192.168.1.2)
+[1441708121] HOST ALERT: cisco;DOWN;SOFT;5;CRITICAL - Host Unreachable (192.168.1.1)
+[1441708175] HOST ALERT: ad.plank.life;DOWN;HARD;5;CRITICAL - Host Unreachable (192.168.1.2)
+[1441708175] HOST NOTIFICATION: nagiosadmin;ad.plank.life;DOWN;notify-host-by-email;CRITICAL - Host Unreachable (192.168.1.2)
+[1441708184] HOST ALERT: cisco;DOWN;SOFT;6;CRITICAL - Host Unreachable (192.168.1.1)
+[1441708247] HOST ALERT: cisco;DOWN;SOFT;7;CRITICAL - Host Unreachable (192.168.1.1)
+[1441708263] SERVICE ALERT: application.plank.life;SSH;CRITICAL;SOFT;1;connect to address 192.168.1.43 and port 22: No route to host
+[1441708383] SERVICE ALERT: application.plank.life;SSH;CRITICAL;SOFT;2;connect to address 192.168.1.43 and port 22: No route to host
+[1441708397] HOST ALERT: cisco;DOWN;SOFT;8;CRITICAL - Host Unreachable (192.168.1.1)
+[1441708460] HOST ALERT: cisco;DOWN;SOFT;9;CRITICAL - Host Unreachable (192.168.1.1)
+[1441708503] SERVICE ALERT: application.plank.life;SSH;CRITICAL;HARD;3;connect to address 192.168.1.43 and port 22: No route to host
+[1441708523] HOST ALERT: cisco;DOWN;HARD;10;CRITICAL - Host Unreachable (192.168.1.1)
+[1441708523] HOST NOTIFICATION: nagiosadmin;cisco;DOWN;notify-host-by-email;CRITICAL - Host Unreachable (192.168.1.1)
+[1441709235] HOST ALERT: application.plank.life;UP;HARD;5;PING OK - Packet loss = 0%, RTA = 0.75 ms
+[1441709235] HOST NOTIFICATION: nagiosadmin;application.plank.life;UP;notify-host-by-email;PING OK - Packet loss = 0%, RTA = 0.75 ms
+[1441709258] HOST ALERT: mail.plank.life;UP;HARD;5;PING OK - Packet loss = 0%, RTA = 0.64 ms
+[1441709258] HOST NOTIFICATION: nagiosadmin;mail.plank.life;UP;notify-host-by-email;PING OK - Packet loss = 0%, RTA = 0.64 ms
+[1441709322] HOST ALERT: cisco;UP;HARD;10;PING OK - Packet loss = 0%, RTA = 0.77 ms
+[1441709322] HOST NOTIFICATION: nagiosadmin;cisco;UP;notify-host-by-email;PING OK - Packet loss = 0%, RTA = 0.77 ms
+[1441709388] HOST ALERT: ad.plank.life;UP;HARD;5;PING OK - Packet loss = 0%, RTA = 1.07 ms
+[1441709388] HOST NOTIFICATION: nagiosadmin;ad.plank.life;UP;notify-host-by-email;PING OK - Packet loss = 0%, RTA = 1.07 ms
+[1441709448] SERVICE ALERT: cisco;PING;OK;HARD;3;PING OK - Packet loss = 0%, RTA = 0.77 ms
+[1441709594] SERVICE NOTIFICATION: nagiosadmin;cisco;Uptime;CRITICAL;notify-service-by-email;CRITICAL - Plugin timed out while executing system call
+[1441709700] SERVICE ALERT: application.plank.life;SSH;OK;HARD;3;SSH OK - OpenSSH_6.6.1p1 Ubuntu-2ubuntu2.3 (protocol 2.0)
+[1441709741] SERVICE NOTIFICATION: nagiosadmin;cisco;Port 1 Bandwidth Usage;UNKNOWN;notify-service-by-email;check_mrtgtraf: Unable to open MRTG log file
+[1441709807] SERVICE ALERT: application.plank.life;DHCP;OK;HARD;3;OK: Received 1 DHCPOFFER(s), max lease time = 691200 sec.
+[1441709918] SERVICE NOTIFICATION: nagiosadmin;cisco;Port 1 Link Status;UNKNOWN;notify-service-by-email;External command error: MIB search path: $HOME/.snmp/mibs:/usr/share/snmp/mibs:/usr/share/snmp/mibs/iana:/usr/share/snmp/mibs/ietf:/usr/share/mibs/site:/usr/share/snmp/mibs:/usr/share/mibs/iana:/usr/share/mibs/ietf:/usr/share/mibs/netsnmp
+[1441711144] Auto-save of retention data completed successfully.
+[1441713194] SERVICE NOTIFICATION: nagiosadmin;cisco;Uptime;CRITICAL;notify-service-by-email;CRITICAL - Plugin timed out while executing system call
+[1441713341] SERVICE NOTIFICATION: nagiosadmin;cisco;Port 1 Bandwidth Usage;UNKNOWN;notify-service-by-email;check_mrtgtraf: Unable to open MRTG log file
+[1441713518] SERVICE NOTIFICATION: nagiosadmin;cisco;Port 1 Link Status;UNKNOWN;notify-service-by-email;External command error: MIB search path: $HOME/.snmp/mibs:/usr/share/snmp/mibs:/usr/share/snmp/mibs/iana:/usr/share/snmp/mibs/ietf:/usr/share/mibs/site:/usr/share/snmp/mibs:/usr/share/mibs/iana:/usr/share/mibs/ietf:/usr/share/mibs/netsnmp
+[1441714744] Auto-save of retention data completed successfully.
+[1441717118] SERVICE NOTIFICATION: nagiosadmin;cisco;Port 1 Link Status;UNKNOWN;notify-service-by-email;External command error: MIB search path: $HOME/.snmp/mibs:/usr/share/snmp/mibs:/usr/share/snmp/mibs/iana:/usr/share/snmp/mibs/ietf:/usr/share/mibs/site:/usr/share/snmp/mibs:/usr/share/mibs/iana:/usr/share/mibs/ietf:/usr/share/mibs/netsnmp
+[1441717393] SERVICE NOTIFICATION: nagiosadmin;cisco;Uptime;CRITICAL;notify-service-by-email;CRITICAL - Plugin timed out while executing system call
+[1441717540] SERVICE NOTIFICATION: nagiosadmin;cisco;Port 1 Bandwidth Usage;UNKNOWN;notify-service-by-email;check_mrtgtraf: Unable to open MRTG log file
+[1441718344] Auto-save of retention data completed successfully.
+[1441720718] SERVICE NOTIFICATION: nagiosadmin;cisco;Port 1 Link Status;UNKNOWN;notify-service-by-email;External command error: MIB search path: $HOME/.snmp/mibs:/usr/share/snmp/mibs:/usr/share/snmp/mibs/iana:/usr/share/snmp/mibs/ietf:/usr/share/mibs/site:/usr/share/snmp/mibs:/usr/share/mibs/iana:/usr/share/mibs/ietf:/usr/share/mibs/netsnmp
+[1441720993] SERVICE NOTIFICATION: nagiosadmin;cisco;Uptime;CRITICAL;notify-service-by-email;CRITICAL - Plugin timed out while executing system call
+[1441721140] SERVICE NOTIFICATION: nagiosadmin;cisco;Port 1 Bandwidth Usage;UNKNOWN;notify-service-by-email;check_mrtgtraf: Unable to open MRTG log file
+[1441721944] Auto-save of retention data completed successfully.
+[1441724318] SERVICE NOTIFICATION: nagiosadmin;cisco;Port 1 Link Status;UNKNOWN;notify-service-by-email;External command error: MIB search path: $HOME/.snmp/mibs:/usr/share/snmp/mibs:/usr/share/snmp/mibs/iana:/usr/share/snmp/mibs/ietf:/usr/share/mibs/site:/usr/share/snmp/mibs:/usr/share/mibs/iana:/usr/share/mibs/ietf:/usr/share/mibs/netsnmp
+[1441724593] SERVICE NOTIFICATION: nagiosadmin;cisco;Uptime;CRITICAL;notify-service-by-email;CRITICAL - Plugin timed out while executing system call
+[1441724740] SERVICE NOTIFICATION: nagiosadmin;cisco;Port 1 Bandwidth Usage;UNKNOWN;notify-service-by-email;check_mrtgtraf: Unable to open MRTG log file
+[1441725544] Auto-save of retention data completed successfully.
+[1441727931] SERVICE NOTIFICATION: nagiosadmin;cisco;Port 1 Link Status;UNKNOWN;notify-service-by-email;External command error: MIB search path: $HOME/.snmp/mibs:/usr/share/snmp/mibs:/usr/share/snmp/mibs/iana:/usr/share/snmp/mibs/ietf:/usr/share/mibs/site:/usr/share/snmp/mibs:/usr/share/mibs/iana:/usr/share/mibs/ietf:/usr/share/mibs/netsnmp
+[1441728193] SERVICE NOTIFICATION: nagiosadmin;cisco;Uptime;CRITICAL;notify-service-by-email;CRITICAL - Plugin timed out while executing system call
+[1441728340] SERVICE NOTIFICATION: nagiosadmin;cisco;Port 1 Bandwidth Usage;UNKNOWN;notify-service-by-email;check_mrtgtraf: Unable to open MRTG log file
+[1441729144] Auto-save of retention data completed successfully.
+[1441731793] SERVICE NOTIFICATION: nagiosadmin;cisco;Uptime;CRITICAL;notify-service-by-email;CRITICAL - Plugin timed out while executing system call
+[1441732117] SERVICE NOTIFICATION: nagiosadmin;cisco;Port 1 Link Status;UNKNOWN;notify-service-by-email;External command error: MIB search path: $HOME/.snmp/mibs:/usr/share/snmp/mibs:/usr/share/snmp/mibs/iana:/usr/share/snmp/mibs/ietf:/usr/share/mibs/site:/usr/share/snmp/mibs:/usr/share/mibs/iana:/usr/share/mibs/ietf:/usr/share/mibs/netsnmp
+[1441732516] HOST ALERT: ad.plank.life;DOWN;SOFT;1;PING CRITICAL - Packet loss = 100%
+[1441732539] SERVICE NOTIFICATION: nagiosadmin;cisco;Port 1 Bandwidth Usage;UNKNOWN;notify-service-by-email;check_mrtgtraf: Unable to open MRTG log file
+[1441732606] SERVICE ALERT: application.plank.life;DHCP;CRITICAL;SOFT;1;CRITICAL: No DHCPOFFERs were received.
+[1441732606] HOST ALERT: ad.plank.life;DOWN;SOFT;2;PING CRITICAL - Packet loss = 100%
+[1441732696] wproc: Core Worker 26978: job 1766 (pid=9290) timed out. Killing it
+[1441732696] wproc: CHECK job 1766 from worker Core Worker 26978 timed out after 30.00s
+[1441732696] wproc:   host=ad.plank.life; service=(null);
+[1441732696] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1441732696] wproc:   stdout line 01: PING CRITICAL - Packet loss = 100%|rta=5000.000000ms;3000.000000;5000.000000;0.000000 pl=100%;80;100;0
+[1441732696] Warning: Check of host 'ad.plank.life' timed out after 30.00 seconds
+[1441732696] HOST ALERT: ad.plank.life;DOWN;SOFT;3;(Host check timed out after 30.00 seconds)
+[1441732696] wproc: Core Worker 26978: job 1766 (pid=9290): Dormant child reaped
+[1441732726] SERVICE ALERT: application.plank.life;DHCP;CRITICAL;SOFT;2;CRITICAL: No DHCPOFFERs were received.
+[1441732744] Auto-save of retention data completed successfully.
+[1441732786] wproc: Core Worker 26979: job 1775 (pid=9348) timed out. Killing it
+[1441732786] HOST ALERT: ad.plank.life;DOWN;SOFT;4;PING CRITICAL - Packet loss = 100%
+[1441732786] wproc: Core Worker 26979: job 8711936 with pid 9348 reaped at timeout. timeouts=1; started=1777
+[1441732846] SERVICE ALERT: application.plank.life;DHCP;CRITICAL;HARD;3;CRITICAL: No DHCPOFFERs were received.
+[1441732876] wproc: Core Worker 26978: job 1781 (pid=9388) timed out. Killing it
+[1441732876] HOST ALERT: ad.plank.life;DOWN;HARD;5;PING CRITICAL - Packet loss = 100%
+[1441732876] HOST NOTIFICATION: nagiosadmin;ad.plank.life;DOWN;notify-host-by-email;PING CRITICAL - Packet loss = 100%
+[1441732876] wproc: Core Worker 26978: job 40485168 with pid 9388 reaped at timeout. timeouts=1; started=1784
+[1441734046] SERVICE ALERT: application.plank.life;DHCP;OK;HARD;3;OK: Received 1 DHCPOFFER(s), max lease time = 691200 sec.
+[1441734134] HOST ALERT: ad.plank.life;UP;HARD;5;PING OK - Packet loss = 0%, RTA = 1.11 ms
+[1441734134] HOST NOTIFICATION: nagiosadmin;ad.plank.life;UP;notify-host-by-email;PING OK - Packet loss = 0%, RTA = 1.11 ms
+[1441735393] SERVICE NOTIFICATION: nagiosadmin;cisco;Uptime;CRITICAL;notify-service-by-email;CRITICAL - Plugin timed out while executing system call
+[1441735717] SERVICE NOTIFICATION: nagiosadmin;cisco;Port 1 Link Status;UNKNOWN;notify-service-by-email;External command error: MIB search path: $HOME/.snmp/mibs:/usr/share/snmp/mibs:/usr/share/snmp/mibs/iana:/usr/share/snmp/mibs/ietf:/usr/share/mibs/site:/usr/share/snmp/mibs:/usr/share/mibs/iana:/usr/share/mibs/ietf:/usr/share/mibs/netsnmp
+[1441736139] SERVICE NOTIFICATION: nagiosadmin;cisco;Port 1 Bandwidth Usage;UNKNOWN;notify-service-by-email;check_mrtgtraf: Unable to open MRTG log file
+[1441736344] Auto-save of retention data completed successfully.

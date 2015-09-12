@@ -1,0 +1,192 @@
+define host{
+        use             generic-switch          ; Inherit default values from a template
+        host_name       application.plank.life           ; The name we're giving to this switch
+        alias           application    ; A longer name associated with the switch
+        address         10.0.0.3             ; IP address of the switch
+        hostgroups      linux-servers                ; Host groups this switch is associated with
+        }
+define service {
+    use generic-service
+    hostgroup_name linux-servers
+    service_description TOMCAT THREADS COUNT
+    check_command check_nrpe!tomcat_threads
+    notifications_enabled 0
+}
+define service {
+   use                 generic-service
+    hostgroup_name linux-servers
+   service_description Tomcat loaded classes count
+   check_command       check_nrpe!tomcat_classes
+ }
+ define service {
+   use                 generic-service
+    hostgroup_name linux-servers
+   service_description Tomcat heap memory used
+   check_command       check_nrpe!tomcat_heap
+ }
+ define service {
+   use                 generic-service
+   service_description Tomcat non-heap memory used
+    hostgroup_name linux-servers
+   
+check_command       check_nrpe!tomcat_nonheap
+ }
+ define service {
+   use                 generic-service
+    hostgroup_name linux-servers
+   service_description Tomcat total active sessions
+   check_command       check_nrpe!tomcat_sessions
+ }
+
+define service {
+    use generic-service
+    hostgroup_name linux-servers
+    service_description CHECK HEAP
+    check_command check_nrpe!check_heap
+    notifications_enabled 0
+}
+#define service {
+#    use generic-service
+#    hostgroup_name linux-servers
+#    service_description CHECK TOMCAT MEMORY/THREADS
+#    check_command check_nrpe!check_tomcat.pl
+#    notifications_enabled 0
+#}
+#define service {
+#    use generic-service
+#    hostgroup_name linux-servers
+#    service_description CHECK TOMCAT APPLICATION
+#    check_command check_nrpe!check_TomcatApplication.sh
+#    notifications_enabled 0
+#}
+define service {
+    use generic-service
+    hostgroup_name linux-servers
+    service_description MYSQL CONNECTION TIME
+    check_command check_mysql_health!plank-nagios!password!connection-time!MySQL_Server_IP!5548!
+    notifications_enabled 0
+}
+define service {
+    use generic-service
+    hostgroup_name linux-servers
+    service_description MYSQL SLAVE-IO-RUNNING
+    check_command check_mysql_health!plank-nagios!password!slave-io-running!MySQL_Server_IP!3306!
+    notifications_enabled 0
+}
+define service {
+    use generic-service
+    hostgroup_name linux-servers
+    service_description MYSQL SLAVE SQL RUNNING
+    check_command check_mysql_health!plank-nagios!password!slave-sql-running!MySQL_Server_IP!3306!
+    notifications_enabled 0
+}
+define service {
+    use generic-service
+    hostgroup_name linux-servers
+    service_description MYSQL threads-connected
+    check_command check_mysql_health!plank-nagios!password!threads-connected!MySQL_Server_IP!3306!
+    notifications_enabled 0
+}
+define service {
+    use generic-service
+    hostgroup_name linux-servers
+    service_description MYSQL Database
+    check_command check_mysql!plank-nagios!planksoft4321!mysql
+    notifications_enabled 0
+}
+
+define service {
+    use generic-service
+    hostgroup_name linux-servers
+    service_description APT PACKAGES
+    check_command check_apt
+    notifications_enabled 0
+}
+
+define service {
+    use generic-service
+    hostgroup_name linux-servers
+    service_description APT DISTRIBUTIONS
+    check_command check_apt_distupgrade
+    notifications_enabled 0
+}
+
+define service {
+    use generic-service
+    hostgroup_name linux-servers
+    service_description TIME
+    check_command check_time
+    notifications_enabled 0
+}
+
+define service {
+    use generic-service
+    hostgroup_name linux-servers
+    service_description HTTPS
+    check_command check_https
+    notifications_enabled 0
+}
+
+define service {
+    use generic-service
+    hostgroup_name linux-servers
+    service_description POP
+    check_command check_pop
+    notifications_enabled 0
+}
+
+define service {
+    use generic-service
+    hostgroup_name linux-servers
+    service_description SMTP
+    check_command check_smtp
+    notifications_enabled 0
+}
+
+define service {
+    use generic-service
+    hostgroup_name linux-servers
+    service_description IMAP
+    check_command check_imap
+    notifications_enabled 0
+}
+
+define service {
+    use generic-service
+    hostgroup_name linux-servers
+    service_description TCP
+    check_command check_tcp
+    notifications_enabled 0
+}
+
+define service {
+    use generic-service
+    hostgroup_name linux-servers
+    service_description UDP
+    check_command check_udp
+    notifications_enabled 0
+}
+
+define service {
+    use generic-service
+    hostgroup_name linux-servers
+    service_description DNS
+    check_command check_dns
+    notifications_enabled 0
+}
+
+define service {
+    use generic-service
+    hostgroup_name linux-servers
+    service_description DNS USING DIG
+    check_command check_dig
+    notifications_enabled 0
+}
+
+define service {
+    use generic-service
+    hostgroup_name linux-servers
+    service_description LDAP
+    check_command check_ldap
+    notifications_enabled 0
+}

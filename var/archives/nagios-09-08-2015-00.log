@@ -1,0 +1,193 @@
+[1441564200] LOG ROTATION: DAILY
+[1441564200] LOG VERSION: 2.0
+[1441564200] CURRENT HOST STATE: application.plank.life;UP;HARD;1;PING OK - Packet loss = 0%, RTA = 0.31 ms
+[1441564200] CURRENT HOST STATE: localhost;UP;HARD;1;PING OK - Packet loss = 0%, RTA = 0.06 ms
+[1441564200] CURRENT SERVICE STATE: application.plank.life;SSH;OK;HARD;1;SSH OK - OpenSSH_6.6.1p1 Ubuntu-2ubuntu2.3 (protocol 2.0)
+[1441564200] CURRENT SERVICE STATE: localhost;Current Load;OK;HARD;1;OK - load average: 0.00, 0.01, 0.05
+[1441564200] CURRENT SERVICE STATE: localhost;Current Users;OK;HARD;1;USERS OK - 0 users currently logged in
+[1441564200] CURRENT SERVICE STATE: localhost;HTTP;OK;HARD;1;HTTP OK: HTTP/1.1 200 OK - 11783 bytes in 0.001 second response time
+[1441564200] CURRENT SERVICE STATE: localhost;PING;OK;HARD;1;PING OK - Packet loss = 0%, RTA = 0.07 ms
+[1441564200] CURRENT SERVICE STATE: localhost;Root Partition;OK;HARD;1;DISK OK - free space: / 12817 MB (74% inode=90%):
+[1441564200] CURRENT SERVICE STATE: localhost;SSH;OK;HARD;1;SSH OK - OpenSSH_6.6.1p1 Ubuntu-2ubuntu2.3 (protocol 2.0)
+[1441564200] CURRENT SERVICE STATE: localhost;Swap Usage;CRITICAL;HARD;4;SWAP CRITICAL - 0% free (0 MB out of 0 MB) - Swap is either disabled, not present, or of zero size.
+[1441564200] CURRENT SERVICE STATE: localhost;Total Processes;OK;HARD;1;PROCS OK: 46 processes with STATE = RSZDT
+[1441565018] SERVICE NOTIFICATION: nagiosadmin;localhost;Swap Usage;CRITICAL;notify-service-by-email;SWAP CRITICAL - 0% free (0 MB out of 0 MB) - Swap is either disabled, not present, or of zero size.
+[1441565966] Auto-save of retention data completed successfully.
+[1441568618] SERVICE NOTIFICATION: nagiosadmin;localhost;Swap Usage;CRITICAL;notify-service-by-email;SWAP CRITICAL - 0% free (0 MB out of 0 MB) - Swap is either disabled, not present, or of zero size.
+[1441569566] Auto-save of retention data completed successfully.
+[1441572218] SERVICE NOTIFICATION: nagiosadmin;localhost;Swap Usage;CRITICAL;notify-service-by-email;SWAP CRITICAL - 0% free (0 MB out of 0 MB) - Swap is either disabled, not present, or of zero size.
+[1441573166] Auto-save of retention data completed successfully.
+[1441576117] SERVICE NOTIFICATION: nagiosadmin;localhost;Swap Usage;CRITICAL;notify-service-by-email;SWAP CRITICAL - 0% free (0 MB out of 0 MB) - Swap is either disabled, not present, or of zero size.
+[1441576766] Auto-save of retention data completed successfully.
+[1441579717] SERVICE NOTIFICATION: nagiosadmin;localhost;Swap Usage;CRITICAL;notify-service-by-email;SWAP CRITICAL - 0% free (0 MB out of 0 MB) - Swap is either disabled, not present, or of zero size.
+[1441580366] Auto-save of retention data completed successfully.
+[1441583317] SERVICE NOTIFICATION: nagiosadmin;localhost;Swap Usage;CRITICAL;notify-service-by-email;SWAP CRITICAL - 0% free (0 MB out of 0 MB) - Swap is either disabled, not present, or of zero size.
+[1441583966] Auto-save of retention data completed successfully.
+[1441586917] SERVICE NOTIFICATION: nagiosadmin;localhost;Swap Usage;CRITICAL;notify-service-by-email;SWAP CRITICAL - 0% free (0 MB out of 0 MB) - Swap is either disabled, not present, or of zero size.
+[1441587566] Auto-save of retention data completed successfully.
+[1441590816] SERVICE NOTIFICATION: nagiosadmin;localhost;Swap Usage;CRITICAL;notify-service-by-email;SWAP CRITICAL - 0% free (0 MB out of 0 MB) - Swap is either disabled, not present, or of zero size.
+[1441591166] Auto-save of retention data completed successfully.
+[1441594416] SERVICE NOTIFICATION: nagiosadmin;localhost;Swap Usage;CRITICAL;notify-service-by-email;SWAP CRITICAL - 0% free (0 MB out of 0 MB) - Swap is either disabled, not present, or of zero size.
+[1441594767] Auto-save of retention data completed successfully.
+[1441598016] SERVICE NOTIFICATION: nagiosadmin;localhost;Swap Usage;CRITICAL;notify-service-by-email;SWAP CRITICAL - 0% free (0 MB out of 0 MB) - Swap is either disabled, not present, or of zero size.
+[1441598367] Auto-save of retention data completed successfully.
+[1441601914] SERVICE NOTIFICATION: nagiosadmin;localhost;Swap Usage;CRITICAL;notify-service-by-email;SWAP CRITICAL - 0% free (0 MB out of 0 MB) - Swap is either disabled, not present, or of zero size.
+[1441601966] Auto-save of retention data completed successfully.
+[1441605514] SERVICE NOTIFICATION: nagiosadmin;localhost;Swap Usage;CRITICAL;notify-service-by-email;SWAP CRITICAL - 0% free (0 MB out of 0 MB) - Swap is either disabled, not present, or of zero size.
+[1441605566] Auto-save of retention data completed successfully.
+[1441607314] SERVICE ALERT: localhost;Swap Usage;OK;HARD;4;SWAP OK - 100% free (2007 MB out of 2007 MB)
+[1441607314] SERVICE NOTIFICATION: nagiosadmin;localhost;Swap Usage;OK;notify-service-by-email;SWAP OK - 100% free (2007 MB out of 2007 MB)
+[1441607848] Caught SIGTERM, shutting down...
+[1441607848] Successfully shutdown... (PID=880)
+[1441607848] Event broker module 'NERD' deinitialized successfully.
+[1441607875] Nagios 4.1.1 starting... (PID=879)
+[1441607875] Local time is Mon Sep 07 12:07:55 IST 2015
+[1441607875] LOG VERSION: 2.0
+[1441607875] qh: Socket '/usr/local/nagios/var/rw/nagios.qh' successfully initialized
+[1441607875] qh: core query handler registered
+[1441607875] nerd: Channel hostchecks registered successfully
+[1441607875] nerd: Channel servicechecks registered successfully
+[1441607875] nerd: Channel opathchecks registered successfully
+[1441607875] nerd: Fully initialized and ready to rock!
+[1441607875] wproc: Successfully registered manager as @wproc with query handler
+[1441607875] wproc: Registry request: name=Core Worker 882;pid=882
+[1441607875] wproc: Registry request: name=Core Worker 881;pid=881
+[1441607875] wproc: Registry request: name=Core Worker 884;pid=884
+[1441607875] wproc: Registry request: name=Core Worker 883;pid=883
+[1441607875] Successfully launched command file worker with pid 895
+[1441611474] Auto-save of retention data completed successfully.
+[1441614420] Caught SIGTERM, shutting down...
+[1441614420] Successfully shutdown... (PID=879)
+[1441614420] Event broker module 'NERD' deinitialized successfully.
+[1441614420] Nagios 4.1.1 starting... (PID=2716)
+[1441614420] Local time is Mon Sep 07 13:57:00 IST 2015
+[1441614420] LOG VERSION: 2.0
+[1441614420] qh: Socket '/usr/local/nagios/var/rw/nagios.qh' successfully initialized
+[1441614420] qh: core query handler registered
+[1441614420] nerd: Channel hostchecks registered successfully
+[1441614420] nerd: Channel servicechecks registered successfully
+[1441614420] nerd: Channel opathchecks registered successfully
+[1441614420] nerd: Fully initialized and ready to rock!
+[1441614420] wproc: Successfully registered manager as @wproc with query handler
+[1441614420] wproc: Registry request: name=Core Worker 2719;pid=2719
+[1441614420] wproc: Registry request: name=Core Worker 2718;pid=2718
+[1441614420] wproc: Registry request: name=Core Worker 2717;pid=2717
+[1441614420] wproc: Registry request: name=Core Worker 2720;pid=2720
+[1441614420] Successfully launched command file worker with pid 2721
+[1441614426] SERVICE ALERT: application.plank.life;SSH;UNKNOWN;SOFT;1;Usage:
+[1441614546] SERVICE ALERT: application.plank.life;SSH;UNKNOWN;SOFT;2;Usage:
+[1441614666] SERVICE ALERT: application.plank.life;SSH;UNKNOWN;HARD;3;Usage:
+[1441615380] Caught SIGTERM, shutting down...
+[1441615380] Successfully shutdown... (PID=2716)
+[1441615380] Event broker module 'NERD' deinitialized successfully.
+[1441615381] Nagios 4.1.1 starting... (PID=2994)
+[1441615381] Local time is Mon Sep 07 14:13:01 IST 2015
+[1441615381] LOG VERSION: 2.0
+[1441615381] qh: Socket '/usr/local/nagios/var/rw/nagios.qh' successfully initialized
+[1441615381] qh: core query handler registered
+[1441615381] nerd: Channel hostchecks registered successfully
+[1441615381] nerd: Channel servicechecks registered successfully
+[1441615381] nerd: Channel opathchecks registered successfully
+[1441615381] nerd: Fully initialized and ready to rock!
+[1441615381] wproc: Successfully registered manager as @wproc with query handler
+[1441615381] wproc: Registry request: name=Core Worker 2996;pid=2996
+[1441615381] wproc: Registry request: name=Core Worker 2997;pid=2997
+[1441615381] wproc: Registry request: name=Core Worker 2998;pid=2998
+[1441615381] wproc: Registry request: name=Core Worker 2995;pid=2995
+[1441615381] Successfully launched command file worker with pid 2999
+[1441615866] SERVICE ALERT: application.plank.life;SSH;OK;HARD;3;SSH OK - OpenSSH_6.6.1p1 Ubuntu-2ubuntu2.3 (protocol 2.0)
+[1441618980] Auto-save of retention data completed successfully.
+[1441620346] Caught SIGTERM, shutting down...
+[1441620346] Successfully shutdown... (PID=2994)
+[1441620346] Event broker module 'NERD' deinitialized successfully.
+[1441620347] Nagios 4.1.1 starting... (PID=7212)
+[1441620347] Local time is Mon Sep 07 15:35:47 IST 2015
+[1441620347] LOG VERSION: 2.0
+[1441620347] qh: Socket '/usr/local/nagios/var/rw/nagios.qh' successfully initialized
+[1441620347] qh: core query handler registered
+[1441620347] nerd: Channel hostchecks registered successfully
+[1441620347] nerd: Channel servicechecks registered successfully
+[1441620347] nerd: Channel opathchecks registered successfully
+[1441620347] nerd: Fully initialized and ready to rock!
+[1441620347] wproc: Successfully registered manager as @wproc with query handler
+[1441620347] wproc: Registry request: name=Core Worker 7215;pid=7215
+[1441620347] wproc: Registry request: name=Core Worker 7216;pid=7216
+[1441620347] wproc: Registry request: name=Core Worker 7214;pid=7214
+[1441620347] wproc: Registry request: name=Core Worker 7213;pid=7213
+[1441620348] Successfully launched command file worker with pid 7217
+[1441620416] SERVICE ALERT: application.plank.life;check_nt;UNKNOWN;SOFT;1;Usage:
+[1441620485] SERVICE ALERT: application.plank.life;check_smtp;CRITICAL;SOFT;1;connect to address 192.168.1.43 and port 25: No route to host
+[1441620536] SERVICE ALERT: application.plank.life;check_nt;UNKNOWN;SOFT;2;Usage:
+[1441620606] SERVICE ALERT: application.plank.life;check_smtp;CRITICAL;SOFT;2;connect to address 192.168.1.43 and port 25: No route to host
+[1441620656] SERVICE ALERT: application.plank.life;check_nt;UNKNOWN;HARD;3;Usage:
+[1441620720] Caught SIGTERM, shutting down...
+[1441620720] Successfully shutdown... (PID=7212)
+[1441620720] Event broker module 'NERD' deinitialized successfully.
+[1441620720] Nagios 4.1.1 starting... (PID=7346)
+[1441620720] Local time is Mon Sep 07 15:42:00 IST 2015
+[1441620720] LOG VERSION: 2.0
+[1441620720] qh: Socket '/usr/local/nagios/var/rw/nagios.qh' successfully initialized
+[1441620720] qh: core query handler registered
+[1441620720] nerd: Channel hostchecks registered successfully
+[1441620720] nerd: Channel servicechecks registered successfully
+[1441620720] nerd: Channel opathchecks registered successfully
+[1441620720] nerd: Fully initialized and ready to rock!
+[1441620720] wproc: Successfully registered manager as @wproc with query handler
+[1441620720] wproc: Registry request: name=Core Worker 7349;pid=7349
+[1441620720] wproc: Registry request: name=Core Worker 7348;pid=7348
+[1441620720] wproc: Registry request: name=Core Worker 7347;pid=7347
+[1441620720] wproc: Registry request: name=Core Worker 7350;pid=7350
+[1441620720] Successfully launched command file worker with pid 7351
+[1441620725] SERVICE ALERT: application.plank.life;check_smtp;CRITICAL;HARD;3;connect to address 192.168.1.43 and port 25: No route to host
+[1441620816] SERVICE ALERT: application.plank.life;IMAP;CRITICAL;SOFT;1;connect to address 192.168.1.43 and port 143: No route to host
+[1441620864] SERVICE ALERT: application.plank.life;Local Disk;UNKNOWN;SOFT;1;Unknown argument
+[1441620912] SERVICE ALERT: application.plank.life;Local Proceses;UNKNOWN;SOFT;1;Usage:
+[1441620937] SERVICE ALERT: application.plank.life;IMAP;CRITICAL;SOFT;2;connect to address 192.168.1.43 and port 143: No route to host
+[1441620960] SERVICE ALERT: application.plank.life;Local Swap;UNKNOWN;SOFT;1;check_swap: Warning threshold must be integer or percentage!
+[1441620984] SERVICE ALERT: application.plank.life;Local Disk;UNKNOWN;SOFT;2;Unknown argument
+[1441621008] SERVICE ALERT: application.plank.life;Local Users;UNKNOWN;SOFT;1;check_users: Warning threshold must be a positive integer
+[1441621032] SERVICE ALERT: application.plank.life;Local Proceses;UNKNOWN;SOFT;2;Usage:
+[1441621056] SERVICE ALERT: application.plank.life;PING;UNKNOWN;SOFT;1;check_ping: %s: Warning threshold must be integer or percentage!
+[1441621057] SERVICE ALERT: application.plank.life;IMAP;CRITICAL;HARD;3;connect to address 192.168.1.43 and port 143: No route to host
+[1441621080] SERVICE ALERT: application.plank.life;Local Swap;UNKNOWN;SOFT;2;check_swap: Warning threshold must be integer or percentage!
+[1441621104] SERVICE ALERT: application.plank.life;Local Disk;UNKNOWN;HARD;3;Unknown argument
+[1441621104] SERVICE ALERT: application.plank.life;POP;CRITICAL;SOFT;1;connect to address 192.168.1.43 and port 110: No route to host
+[1441621128] SERVICE ALERT: application.plank.life;Local Users;UNKNOWN;SOFT;2;check_users: Warning threshold must be a positive integer
+[1441621152] SERVICE ALERT: application.plank.life;Local Proceses;UNKNOWN;HARD;3;Usage:
+[1441621152] SERVICE ALERT: application.plank.life;UDP;UNKNOWN;SOFT;1;Usage:
+[1441621176] SERVICE ALERT: application.plank.life;PING;UNKNOWN;SOFT;2;check_ping: %s: Warning threshold must be integer or percentage!
+[1441621200] SERVICE ALERT: application.plank.life;Local Swap;UNKNOWN;HARD;3;check_swap: Warning threshold must be integer or percentage!
+[1441621224] SERVICE ALERT: application.plank.life;POP;CRITICAL;SOFT;2;connect to address 192.168.1.43 and port 110: No route to host
+[1441621248] SERVICE ALERT: application.plank.life;Local Users;UNKNOWN;HARD;3;check_users: Warning threshold must be a positive integer
+[1441621272] SERVICE ALERT: application.plank.life;UDP;UNKNOWN;SOFT;2;Usage:
+[1441621296] SERVICE ALERT: application.plank.life;PING;UNKNOWN;HARD;3;check_ping: %s: Warning threshold must be integer or percentage!
+[1441621344] SERVICE ALERT: application.plank.life;POP;CRITICAL;HARD;3;connect to address 192.168.1.43 and port 110: No route to host
+[1441621392] SERVICE ALERT: application.plank.life;UDP;UNKNOWN;HARD;3;Usage:
+[1441623425] Caught SIGTERM, shutting down...
+[1441623425] Successfully shutdown... (PID=7346)
+[1441623425] Event broker module 'NERD' deinitialized successfully.
+[1441623425] Nagios 4.1.1 starting... (PID=8166)
+[1441623425] Local time is Mon Sep 07 16:27:05 IST 2015
+[1441623425] LOG VERSION: 2.0
+[1441623425] qh: Socket '/usr/local/nagios/var/rw/nagios.qh' successfully initialized
+[1441623425] qh: core query handler registered
+[1441623425] nerd: Channel hostchecks registered successfully
+[1441623425] nerd: Channel servicechecks registered successfully
+[1441623425] nerd: Channel opathchecks registered successfully
+[1441623425] nerd: Fully initialized and ready to rock!
+[1441623425] wproc: Successfully registered manager as @wproc with query handler
+[1441623425] wproc: Registry request: name=Core Worker 8170;pid=8170
+[1441623425] wproc: Registry request: name=Core Worker 8168;pid=8168
+[1441623425] wproc: Registry request: name=Core Worker 8169;pid=8169
+[1441623425] wproc: Registry request: name=Core Worker 8167;pid=8167
+[1441623425] Successfully launched command file worker with pid 8171
+[1441623472] SERVICE ALERT: application.plank.life;MYSQL;CRITICAL;SOFT;1;Can't connect to MySQL server on '192.168.1.43' (113)
+[1441623591] SERVICE ALERT: application.plank.life;MYSQL;CRITICAL;SOFT;2;Can't connect to MySQL server on '192.168.1.43' (113)
+[1441623711] SERVICE ALERT: application.plank.life;MYSQL;CRITICAL;HARD;3;Can't connect to MySQL server on '192.168.1.43' (113)
+[1441627024] Auto-save of retention data completed successfully.
+[1441630624] Auto-save of retention data completed successfully.
+[1441634224] Auto-save of retention data completed successfully.
+[1441637824] Auto-save of retention data completed successfully.
+[1441641425] Auto-save of retention data completed successfully.
+[1441645024] Auto-save of retention data completed successfully.
+[1441648624] Auto-save of retention data completed successfully.
